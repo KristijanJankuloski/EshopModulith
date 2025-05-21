@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Basket\EshopModulith.Basket\EshopModulith.Basket.csproj" />
+    <ProjectReference Include="..\..\Modules\Catalog\EshopModulith.Catalog\EshopModulith.Catalog.csproj" />
+    <ProjectReference Include="..\..\Modules\Ordering\EshopModulith.Ordering\EshopModulith.Ordering.csproj" />
+  </ItemGroup>
+
+</Project>

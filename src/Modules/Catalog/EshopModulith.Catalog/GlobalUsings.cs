@@ -1,0 +1,10 @@
+global using EshopModulith.Shared.DDD;
+global using EshopModulith.Catalog.Products.Models;
+global using EshopModulith.Catalog.Products.Events;
+global using Microsoft.EntityFrameworkCore;
+global using System.Reflection;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using EshopModulith.Catalog.Data;
+global using EshopModulith.Catalog.Data.Seed;
+global using EshopModulith.Shared.Data;
+global using EshopModulith.Shared.Data.Seed;

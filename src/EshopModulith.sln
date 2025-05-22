@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EshopModulith.Ordering", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EshopModulith.Shared", "Shared\EshopModulith.Shared\EshopModulith.Shared.csproj", "{D04FBB4C-3308-4175-A046-E86F8AB26740}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{717A9B2A-FD7E-4391-8C03-A7D0D6686407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D04FBB4C-3308-4175-A046-E86F8AB26740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04FBB4C-3308-4175-A046-E86F8AB26740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04FBB4C-3308-4175-A046-E86F8AB26740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717A9B2A-FD7E-4391-8C03-A7D0D6686407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717A9B2A-FD7E-4391-8C03-A7D0D6686407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717A9B2A-FD7E-4391-8C03-A7D0D6686407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717A9B2A-FD7E-4391-8C03-A7D0D6686407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

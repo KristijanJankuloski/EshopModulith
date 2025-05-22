@@ -1,0 +1,13 @@
+services:
+  eshopdb:
+    image: postgres
+
+volumes:
+  postgres_eshopdb:
+
+
+  # eshopmodulith.api:
+  #   image: ${DOCKER_REGISTRY-}eshopmodulithapi
+  #   build:
+  #     context: .
+  #     dockerfile: Bootstrapper/EshopModulith.Api/Dockerfile
